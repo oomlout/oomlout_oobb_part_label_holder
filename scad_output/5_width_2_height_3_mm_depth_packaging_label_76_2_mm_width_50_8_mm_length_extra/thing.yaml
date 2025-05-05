@@ -927,13 +927,13 @@ thing:
       height: 2
       pos:
       - 0
-      - 27.4
+      - 26.9
       - 0
-      r: 5.0
+      r: 3.0
       shape: rounded_rectangle
       size:
-      - 80.2
-      - 54.8
+      - 79.2
+      - 53.8
       - 3
       type: positive
       width: 5
@@ -943,13 +943,13 @@ thing:
       m: '#'
       pos:
       - 0
-      - 27.4
+      - 26.9
       - 0
-      r: 4.0
+      r: 2.0
       shape: rounded_rectangle
       size:
-      - 78.2
-      - 52.8
+      - 77.2
+      - 51.8
       - 1
       type: negative
       width: 5
@@ -1037,14 +1037,14 @@ thing:
     overwrite: true
     pos:
     - 0
-    - 27.4
+    - 26.9
     - 0
-    radius: 5.0
+    radius: 3.0
     save_type: none
     shape: rounded_rectangle
     size:
-    - 80.2
-    - 54.8
+    - 79.2
+    - 53.8
     - 3
     thickness: 3
     type: positive
@@ -1074,14 +1074,14 @@ thing:
     overwrite: true
     pos:
     - 0
-    - 27.4
+    - 26.9
     - 0
-    radius: 4.0
+    radius: 2.0
     save_type: none
     shape: rounded_rectangle
     size:
-    - 78.2
-    - 52.8
+    - 77.2
+    - 51.8
     - 1
     thickness: 3
     type: n
@@ -1090,8 +1090,8 @@ thing:
   components_string:
   - oobb_plate_shape_positive_type_3_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_2_height_3_thickness_oobb_oomp_classification_part_oomp_type_base_oomp_size_packaging_label_76_2_mm_width_50_8_mm_length_extra_76.2_width_label_50.8_height_label
   - oobb_holes_shape_p_type_3_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_2_height_3_thickness_oobb_oomp_classification_part_oomp_type_base_oomp_size_packaging_label_76_2_mm_width_50_8_mm_length_extra_76.2_width_label_50.8_height_label_true_both_holes_left_holes
-  - rounded_rectangle_shape_positive_type_3_depth_0_27.4_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_2_height_3_thickness_oobb_oomp_classification_part_oomp_type_base_oomp_size_packaging_label_76_2_mm_width_50_8_mm_length_extra_76.2_width_label_50.8_height_label_80.2_54.8_3_size_5.0_radius_true_both_holes_left_holes
-  - rounded_rectangle_shape_n_type_3_depth_0_27.4_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_2_height_3_thickness_oobb_oomp_classification_part_oomp_type_base_oomp_size_packaging_label_76_2_mm_width_50_8_mm_length_extra_76.2_width_label_50.8_height_label_78.2_52.8_1_size_4.0_radius_true_both_holes_left_holes
+  - rounded_rectangle_shape_positive_type_3_depth_0_26.9_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_2_height_3_thickness_oobb_oomp_classification_part_oomp_type_base_oomp_size_packaging_label_76_2_mm_width_50_8_mm_length_extra_76.2_width_label_50.8_height_label_79.2_53.8_3_size_3.0_radius_true_both_holes_left_holes
+  - rounded_rectangle_shape_n_type_3_depth_0_26.9_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_2_height_3_thickness_oobb_oomp_classification_part_oomp_type_base_oomp_size_packaging_label_76_2_mm_width_50_8_mm_length_extra_76.2_width_label_50.8_height_label_77.2_51.8_1_size_2.0_radius_true_both_holes_left_holes
   description: oomlout oobb part label holder label holder 5x2x3
   description_extra: packaging_label_76_2_mm_width_50_8_mm_length_extra
   description_main: 5_width_2_height_3_mm_depth

@@ -191,9 +191,10 @@ def get_base(thing, **kwargs):
 
     #label holder big piece
     if True:
-        extra_label_border = 4
-        extra_label_clearance = 2
+        extra_label_border = 3
+        extra_label_clearance = 1
         depth_label_inset = 1   
+        radius_label = 3/2
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "positive"
         p3["shape"] = f"rounded_rectangle"
@@ -202,7 +203,7 @@ def get_base(thing, **kwargs):
         dep = depth
         size = [wid, hei, dep]
         p3["size"] = size
-        p3["radius"] = 3 + extra_label_border/2
+        p3["radius"] = radius_label + extra_label_border/2
         p3["depth"] = dep
         p3["both_holes"] = True
         p3["holes"] = "left"
@@ -223,7 +224,8 @@ def get_base(thing, **kwargs):
         dep = depth_label_inset
         size = [wid, hei, dep]
         p4["size"] = size
-        p4["radius"] = 3 + extra_label_clearance/2
+        rad = radius_label + extra_label_clearance/2
+        p4["radius"] = rad
         
         p4["both_holes"] = True
         p4["holes"] = "left"
