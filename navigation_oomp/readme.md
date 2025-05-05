@@ -1,0 +1,5 @@
+* [oobb](oobb)
+  * [part](oobb/part)
+    * [label_holder](oobb/part/label_holder)
+      * [5_width_2_height_3_mm_depth](oobb/part/label_holder/5_width_2_height_3_mm_depth)
+        * [packaging_label_76_2_mm_width_50_8_mm_length_extra](oobb/part/label_holder/5_width_2_height_3_mm_depth/packaging_label_76_2_mm_width_50_8_mm_length_extra)
