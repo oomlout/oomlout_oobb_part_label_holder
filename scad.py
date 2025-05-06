@@ -123,30 +123,35 @@ def make_scad(**kwargs):
         label_sizes.append([76.2, 50.8,5])
         label_sizes.append([152.4, 101.6,9])
 
+        thicknesses = []
+        thicknesses.append(3)
+        thicknesses.append(1.5)
+
         for label_size in label_sizes:
-            width_label = label_size[0]
-            height_label = label_size[1]
-            wid = label_size[2]
-            part = copy.deepcopy(part_default)
-            p3 = copy.deepcopy(kwargs)
-            p3["width"] = wid
-            p3["height"] = 2
-            p3["thickness"] = 3
-            width_label_underscore = str(width_label).replace(".", "_")
-            height_label_underscore = str(height_label).replace(".", "_")
-            string_extra = f"packaging_label_{width_label_underscore}_mm_width_{height_label_underscore}_mm_length"
-            p3["extra"] = string_extra
-            p3["width_label"] = width_label    
-            p3["height_label"] = height_label
-            part["kwargs"] = p3
-            nam = "base"
-            part["name"] = "label_holder"
-            if oomp_mode == "oobb":
-                p3["oomp_size"] = nam
-            if not test:
-                pass
-                parts.append(part)
-        
+            for thick in thicknesses:
+                width_label = label_size[0]
+                height_label = label_size[1]
+                wid = label_size[2]
+                part = copy.deepcopy(part_default)
+                p3 = copy.deepcopy(kwargs)
+                p3["width"] = wid
+                p3["height"] = 2
+                p3["thickness"] = thick
+                width_label_underscore = str(width_label).replace(".", "_")
+                height_label_underscore = str(height_label).replace(".", "_")
+                string_extra = f"packaging_label_{width_label_underscore}_mm_width_{height_label_underscore}_mm_length"
+                p3["extra"] = string_extra
+                p3["width_label"] = width_label    
+                p3["height_label"] = height_label
+                part["kwargs"] = p3
+                nam = "base"
+                part["name"] = "label_holder"
+                if oomp_mode == "oobb":
+                    p3["oomp_size"] = nam
+                if not test:
+                    pass
+                    parts.append(part)
+            
 
     kwargs["parts"] = parts
 
